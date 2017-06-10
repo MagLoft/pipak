@@ -1,0 +1,12 @@
+{
+  "voice": {
+    "device": "coreaudio default",
+    "encoding": "LINEAR16",
+    "sampleRateHertz": 16000,
+    "languageCode": "en-US"
+  },
+  "client": {
+    "host": "raspbali",
+    "port": 6680
+  }
+}

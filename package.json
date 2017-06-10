@@ -1,0 +1,22 @@
+{
+  "name": "pipak",
+  "version": "1.0.0",
+  "description": "Raspberry Pi Mopidy Spotify Assistant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MagLoft/pipak.git"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^0.9.3",
+    "clap-detector": "^0.4.1",
+    "mopidy": "^0.5.0",
+    "node-record-lpcm16": "^0.3.0",
+    "play-sound": "^1.1.1"
+  }
+}

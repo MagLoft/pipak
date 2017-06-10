@@ -1,0 +1,4 @@
+.DS_Store
+config/settings.json
+node_modules/
+input.wav
