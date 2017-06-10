@@ -1,6 +1,13 @@
 {
-  "voice": {
+  "clapper": {
     "device": "coreaudio default",
+    "threshold": "10%",
+    "amplitude": 0.7,
+    "energy": 0.3,
+    "maxDuration": 1500
+  },
+  "voice": {
+    "program": "rec",
     "encoding": "LINEAR16",
     "sampleRateHertz": 16000,
     "languageCode": "en-US"
